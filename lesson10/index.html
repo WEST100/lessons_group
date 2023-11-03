@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header_form">
+        <div>Tour Booking Form</div>
+      </div>
+      <div class="form_main">
+        <form method="get">
+          <div>
+            <label for="name">Name</label>
+          </div>
+          <div>
+            <input id="name" type="text" placeholder="First name" name="first_name" />
+          </div>
+          <div>
+            <input type="text" placeholder="Last name" name="last_name" />
+          </div>
+          <div><label>Email</label></div>
+          <div><input type="email" placeholder="Email" name="email" /></div>
+          <div><label>Phone</label></div>
+          <div><input type="tel" placeholder="### ### ###" name="tel" /></div>
+          <div><label>When are you planning to visit?</label></div>
+          <div><input type="date" name="date" /></div>
+          <div><label>How many people are in your group?</label></div>
+          <div><input type="number" name="number" /></div>
+          <div><label>Which tour are you most interested in?</label></div>
+          <div>
+            <select>
+              <option disabled selected value="*please select*">*please select*</option>
+              <option value="europe">europe</option>
+              <option value="america">america</option>
+              <option value="asia">asia</option>
+            </select>
+          </div>
+          <div><label>What is the best way to contact you?</label></div>
+          <div>
+            <input class="checkbox" type="checkbox" name="phone" />
+            <label>phone</label>
+          </div>
+          <div>
+            <input class="checkbox" type="checkbox" name="email" />
+            <label>email</label>
+          </div>
+          <div>
+            <input class="checkbox" type="checkbox" name="either" />
+            <label>either</label>
+          </div>
+          <div><label>If phone, when is the best time of day for a call-back? </label></div>
+          <div>
+            <input type="radio" value="time" name="time" />
+            <label>8-11 am</label>
+          </div>
+          <div>
+            <input type="radio" value="time" name="time" />
+            <label>12-4 pm</label>
+          </div>
+          <div>
+            <input type="radio" value="time" name="time" />
+            <label>6-10 pm</label>
+          </div>
+          <div>
+            <label>Anything else we should know?</label>
+          </div>
+          <div>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+          </div>
+          <div class="button">
+            <div>
+              <button>send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
