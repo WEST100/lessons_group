@@ -36,25 +36,30 @@ body {
   padding: 5px;
 }
 
-.form_main div:hover input {
+/* .form_main div:hover input {
+  color: blue;
+} */
+
+/* .form_main div:hover label,
+input {
+  color: blue;
+} */
+
+.form_main input:hover {
   color: blue;
 }
 
-.form_main div:hover label {
+.form_main label:hover {
   color: blue;
 }
 
-.form_main div:hover::placeholder {
+/* .form_main div:hover::placeholder {
   color: blue;
-}
+} */
 
 label {
   color: grey;
 }
-
-/* label:hover {
-  color: blue;
-} */
 
 input {
   width: 100%;
